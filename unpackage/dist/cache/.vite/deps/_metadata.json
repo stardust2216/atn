@@ -1,0 +1,15 @@
+{
+  "hash": "6f10ae89",
+  "configHash": "00f1b3c9",
+  "lockfileHash": "8dfe9b9b",
+  "browserHash": "61fc3801",
+  "optimized": {
+    "openai": {
+      "src": "../../../../../../../../node_modules/openai/index.mjs",
+      "file": "openai.js",
+      "fileHash": "a1747b8f",
+      "needsInterop": false
+    }
+  },
+  "chunks": {}
+}

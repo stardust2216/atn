@@ -1,0 +1,70 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/transaction/transaction",
+			"style": {
+				"navigationBarTitleText": "交易"
+			}
+		},
+		{
+			"path": "pages/artificial_intelligence/artificial_intelligence",
+			"style": {
+				"navigationBarTitleText": "AI 问答"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "农作物助手",
+		"navigationBarBackgroundColor": "#F0F5EA",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#E9F5DB"
+		}
+	},
+	"tabBar": {
+		"borderStyle": "white",
+		"backgroundColor": "#E0EFD4",  // 浅绿色背景
+		"color": "#6B8E23",  // 默认颜色，橄榄绿
+		"selectedColor": "#4CAF50",  // 选中颜色，深绿色
+		"list": [
+			{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "/static/icons/index.png",
+				"selectedIconPath": "/static/icons/index1.png"
+			},
+			{
+				"text": "交易",
+				"pagePath": "pages/transaction/transaction",
+				"iconPath": "/static/icons/currency.png",
+				"selectedIconPath": "/static/icons/currency1.png"
+			},
+			{
+				"text": "AI 问答",
+				"pagePath": "pages/artificial_intelligence/artificial_intelligence",
+				"iconPath": "/static/icons/ai.png",
+				"selectedIconPath": "/static/icons/ai1.png"
+			},
+			{
+				"text": "个人中心",
+				"pagePath": "pages/user/user",
+				"iconPath": "/static/icons/user.png",
+				"selectedIconPath": "/static/icons/user1.png"
+			}
+		],
+		"position": "bottom"
+	}
+}
